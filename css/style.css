@@ -1,0 +1,688 @@
+/* Tipografia */
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Neuton:ital@1&display=swap');
+h1, h2, h3, h4, h5, h6, a, button {
+    font-family: 'Courgette', cursive;
+}
+
+p {
+    font-family: 'Neuton', serif;
+}
+
+/* End tipografia */
+
+/* Preloader */
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url('../img/Animaciones/Dakuhero.gif');
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+}
+
+/* End preloader */
+
+/* Header */
+
+/* Fondo */
+
+header {
+    background-image: url(../img/Background/Fondo.png);
+    width: 100%;
+    height: 100vh;
+}
+
+/* End fondo */
+
+/* Navbar */
+
+.navbar.navbar-general {
+    background: none;
+    padding-top: 2%;
+}
+
+.navbar.navbar-general #navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar.navbar-general .nav-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar.navbar-general .nav-link:hover {
+    border-bottom: solid 1px #fff;
+    padding-bottom: 5px;
+}
+
+/* Media navbar */
+
+@media (min-width: 1px) and (max-width: 991px) {
+    .navbar {
+        display: block;
+    }
+    .navbar .collapse {
+        display: block;
+    }
+    .navbar .collapse .navbar-nav {
+        flex-direction: row;
+        justify-content: end;
+    }
+    .navbar .collapse .navbar-nav .nav-item {
+        margin: 0 1.5%;
+    }
+}
+
+/* End media navbar */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Index */
+    #header_index {
+        height: 125vh;
+    }
+    .itemA #foto {
+        padding-right: 2%;
+    }
+    .itemB {
+        margin-left: 5%;
+    }
+    /* End index */
+    /* Sobre mi */
+    #header_sm {
+        height: max-content;
+    }
+    .container .sb_est p {
+        margin: 0 0 20% 0 !important;
+    }
+    .container .sb_est p.c2 {
+        padding: 0 30% 0 4% !important;
+    }
+    .container .sb_mi h2.sb_title_1 {
+        font-size: 31px;
+    }
+    .container .sb_mi h2.sb_title_2 {
+        font-size: 31px;
+    }
+    #about_me #ab_me_im img.aa, img.ab, img.ac {
+        margin: 9.9% !important;
+    }
+    #about_me #ab_me_im img.ba {
+        top: 30% !important;
+    }
+    #about_me #ab_me_im img.bb {
+        left: 11% !important;
+        top: 30% !important;
+    }
+    #about_me #ab_me_im img.bc {
+        right: 13% !important;
+        top: 30% !important;
+    }
+    #Control_n, #Lapiz_n, #Texto_n, #Manga_n{
+        margin: 7% !important;
+    }
+    #Video_n, #Ai_in_n, #Ps_in_n, #Audifonos_n{
+        margin: 7% !important;
+    }
+    /* End sobre mi */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Index */
+    .itemA #foto {
+        width: 250px;
+    }
+    .itemA #Mangavatar {
+        width: 250px;
+        margin-left: 2%;
+    }
+    .itemB h2, p {
+        padding-top: 12% !important;
+    }
+    /* End index */
+    /* Sobre mi */
+    #header_sm{
+        height: max-content;
+    }
+    .container .sb_mi h2.sb_title_1{
+        margin-bottom: 0 !important;
+        text-align: center;
+    }
+    .container .sb_est p.a1, p.b1, p.c1, p.d1{
+        text-align: center;
+        padding-top: 0 !important;
+    }
+    .container .sb_est p.a2{
+        text-align: center;
+        padding-top: 0 !important;
+    }
+    .container .sb_est p.b2{
+        text-align: center;
+        padding-top: 0 !important;
+    }
+    .container .sb_est p.c2{
+        text-align: center;
+        padding-top: 0 !important;
+        padding: 0 9% 0 4% !important;
+    }
+    .container .sb_est p.d2{
+        text-align: center;
+        padding-top: 0 !important;
+    }
+    .container .sb_mi h2.sb_title_2{
+        text-align: center !important;
+    }
+    #Software{
+        margin-bottom: 15%;
+    }
+    #Hobbies{
+        margin: 11% 0;
+    }
+    #about_me #ab_me_im img.aa, img.ab, img.ac{
+        margin: 15% 6% !important;
+    }
+    #about_me #ab_me_im img.ba{
+        left: 10.5% !important;
+        top: 30% !important;
+    }
+    #about_me #ab_me_im img.bb{
+        top: 30% !important;
+        left: 10% !important;
+    }
+    #about_me #ab_me_im img.bc{
+        top: 31% !important;
+    }
+    #Control_n, #Lapiz_n, #Texto_n, #Manga_n{
+        margin: 10% 5% !important;
+    }
+    #Video_n, #Ai_in_n, #Ps_in_n, #Audifonos_n{
+        margin: 10% 4.5% !important;
+    }
+    #Control_e{
+        top: 27% !important;
+        left: 5.5% !important;
+    }
+    #Lapiz_e{
+        top: 27% !important;
+        left: 29.5% !important;
+    }
+    #Texto_e {
+        top: 27% !important;
+        right: 28% !important;
+    }
+    #Manga_e {
+        top: 28% !important;
+        right: 9% !important;
+    }
+    #Video_e {
+        top: 23% !important;
+        left: 5.5% !important;
+    }
+    #Ai_in_e {
+        top: 23% !important;
+        left: 29% !important;
+    }
+    #Ps_in_e {
+        top: 23% !important;
+        right: 28% !important;
+    }
+    #Audifonos_e {
+        top: 23% !important;
+        right: 6.5% !important;
+    }
+    /* End sobre mi */
+
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+    /* Index */
+    #header_index {
+        height: max-content;
+    }
+    .itemA #foto {
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+    .itemA #Mangavatar {
+        width: 250px;
+        margin-left: 2.5%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .itemB h2, p {
+        padding-top: 5% !important;
+    }
+    .itemB h2 {
+        text-align: center !important;
+    }
+    /* End index */
+    /* Sobre mi */
+    #header_sm{
+        height: max-content;
+    }
+    .container .sb_mi h2.sb_title_1{
+        margin-bottom: 6% !important;
+    }
+    .container .sb_mi h2.sb_title_2{
+        margin-top: 9% !important;
+        margin-bottom: 9% !important;
+        text-align: center;
+    }
+    .container .sb_est p.a1, p.b1, p.c1, p.d1{
+        text-align: center;
+        padding-top: 0% !important;
+    }
+    .container .sb_est p.a2{
+        margin-left: 30%;
+        padding-top: 0% !important;
+    }
+    .container .sb_est p.b2{
+        margin-left: 30%;
+        padding-top: 0% !important;
+    }
+    .container .sb_est p.c2{
+        margin-left: 30%;
+        padding-top: 0% !important;
+        padding-right: 13% !important;
+    }
+    .container .sb_est p.d2{
+        margin-left: 30%;
+        padding-top: 0% !important;
+    }
+    #about_me #ab_me_im img.aa, img.ab, img.ac{
+        margin: 10% !important;
+    }
+    #Video_n, #Ai_in_n, #Ps_in_n, #Audifonos_n{
+        margin: 4.6% !important;
+    }
+    #Control_n, #Lapiz_n, #Texto_n, #Manga_n{
+        margin: 5% !important;
+    }
+    #about_me #ab_me_im img.aa, img.ab, img.ac{
+        margin: 6% !important;
+    }
+    .container .sb_mi h2.sb_title_1{
+        text-align: center;
+    }
+    /* End sobre mi */
+    #twitter {
+        width: 25% !important;
+    }
+    #whatsapp {
+        width: 25% !important;
+    }
+    #linkedin {
+        width: 25% !important;
+    }
+}
+
+/* End Navbar */
+
+/* Index */
+
+/* Image */
+
+#foto {
+    width: 400px;
+    position: relative;
+    opacity: 100%;
+    padding-top: 100px;
+}
+
+#Mangavatar {
+    width: 402px;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    opacity: 100%;
+    transition: .5s;
+    padding-top: 50px;
+}
+
+#Mangavatar:hover {
+    opacity: 0%;
+}
+
+/* End image */
+
+/* Text */
+
+.container .itemB {
+    width: 100%;
+}
+
+.container .itemB h2, p {
+    padding-top: 132px;
+    text-align: justify;
+    color: #fff;
+}
+
+.container .itemB p {
+    font-size: 18px;
+}
+
+/* End text */
+
+/* End index */
+
+/* Sobre_mi */
+
+.container .sb_mi p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container .sb_mi h2 {
+    color: #fff;
+}
+
+.container .sb_mi h2.sb_title_1 {
+    color: #fff;
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+
+.container .sb_mi h2.sb_title_2 {
+    color: #fff;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+.container .sb_est p {
+    margin: 0 0 20% 5%;
+    padding: 0;
+}
+
+.container .sb_est p.a1, p.b1, p.c1, p.d1 {
+    color: #fff;
+    position: relative;
+    opacity: 100%;
+    transition: .4s;
+}
+
+.container .sb_est p.a1:hover, p.b1:hover, p.c1:hover, p.d1:hover {
+    color: #fff;
+    position: relative;
+    opacity: 0%;
+}
+
+.container .sb_est p.a2, p.b2, p.c2, p.d2 {
+    color: rgb(25, 25, 25);
+    position: absolute;
+    background-color: #fff;
+    border-radius: 7% 7% 7% 7%;
+    top: 0;
+    opacity: 0%;
+    transition: .4s;
+}
+
+.container .sb_est p.a2 {
+    padding: 0 4%;
+}
+
+.container .sb_est p.b2 {
+    padding: 0 4%;
+}
+
+.container .sb_est p.c2 {
+    padding: 0 24% 0 4%;
+}
+
+.container .sb_est p.d2 {
+    padding: 0 4%;
+}
+
+.container .sb_est p.a2:hover, p.b2:hover, p.c2:hover, p.d2:hover {
+    opacity: 100%;
+}
+
+#about_me #ab_me_im img.aa, img.ab, img.ac {
+    margin: 11%;
+    position: relative;
+}
+
+#about_me #ab_me_im img.ba, img.bb, img.bc {
+    position: absolute;
+    opacity: 100%;
+}
+
+#about_me #ab_me_im img.ba {
+    left: 13.5%;
+    top: 34%;
+}
+
+#about_me #ab_me_im img.bb {
+    left: 18%;
+    top: 33%;
+}
+
+#about_me #ab_me_im img.bc {
+    right: 14%;
+    top: 34%;
+}
+
+#Software {
+    color: #fff;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#Hobbies {
+    color: #fff;
+    text-align: center;
+}
+
+#Control_n, #Lapiz_n, #Texto_n, #Manga_n {
+    margin: 8%;
+    position: relative;
+}
+
+#Control_e, #Lapiz_e, #Texto_e, #Manga_e {
+    position: absolute;
+    opacity: 100%;
+}
+
+#Control_e {
+    top: 31%;
+    left: 7.5%;
+}
+
+#Lapiz_e {
+    top: 31%;
+    left: 32.5%;
+}
+
+#Texto_e {
+    top: 31%;
+    right: 33%;
+}
+
+#Manga_e {
+    top: 31%;
+    right: 12%;
+}
+
+#Video_n, #Ai_in_n, #Ps_in_n, #Audifonos_n {
+    margin: 8%;
+    position: relative;
+}
+
+#Video_e, #Ai_in_e, #Ps_in_e, #Audifonos_e {
+    position: absolute;
+    opacity: 100%;
+}
+
+#Video_e {
+    top: 30%;
+    left: 7.5%;
+}
+
+#Ai_in_e {
+    top: 31%;
+    left: 33%;
+}
+
+#Ps_in_e {
+    top: 31%;
+    right: 32%;
+}
+
+#Audifonos_e {
+    top: 30%;
+    right: 8.5%;
+}
+
+/* End sobre_mi */
+
+/* Portfolio */
+
+#myTab_1 {
+    justify-content: center;
+    border-bottom: 0;
+    margin-top: 2%;
+}
+
+#myTab_1 a {
+    color: #fff;
+}
+
+#myTab_1 .nav-link {
+    border-radius: 10%;
+}
+
+#myTab_1 .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(25, 25, 25) !important;
+}
+
+#myTabContent #home .carousel-item {
+    left: 15%;
+    margin-top: 4%;
+}
+
+#myTabContent #home .carousel-item img {
+    width: 70% !important;
+}
+
+#myTabContent #profile .carousel-item {
+    left: 15%;
+    margin-top: 4%;
+}
+
+#myTabContent #profile .carousel-item img {
+    width: 70% !important;
+}
+
+.image_port_n {
+    position: relative;
+    transition: .5s;
+}
+
+.image_port_n:hover {
+    opacity: 0%;
+}
+
+.image_port_e {
+    position: absolute;
+    opacity: 0%;
+    top: 0%;
+    transition: .5s;
+}
+
+.image_port_e:hover {
+    opacity: 100%;
+}
+
+#Videos_1 {
+    margin: 5% 0 0 14%;
+}
+
+/* End portfolio */
+
+/* Footer */
+
+footer {
+    background-image: url(../img/Background/Fondo.png);
+}
+
+#linkedin {
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+#twitter {
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+#whatsapp {
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+#boton_emergente {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+#boton_emergente:hover {
+    border-bottom: solid 1px #fff;
+}
+
+#exampleModalLabel {
+    position: relative;
+    left: 41%;
+    color: #fff;
+}
+
+#cerrar_sup {
+    color: #fff;
+    opacity: 100%;
+}
+
+.modal-header {
+    background: url(../img/Background/Fondo.png);
+    border-bottom: none;
+}
+
+.modal-body {
+    background: url(../img/Background/Fondo.png);
+    text-align: center;
+    border-bottom: none;
+    color: #fff;
+}
+
+.modal-body p {
+    padding: 0;
+    text-align: center;
+}
+
+.modal-footer {
+    background: url(../img/Background/Fondo.png);
+    border-top: none;
+}
+
+.btn-secondary {
+    color: #191919;
+    background: #fff;
+    position: relative;
+    left: -42%;
+}
+
+/* End footer */
+
+::selection {
+    color: #191919;
+    background: #fff;
+}
